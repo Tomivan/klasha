@@ -1,0 +1,129 @@
+.balances{
+    margin-left: 20%;
+}
+.top-level{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+}
+.top-left{
+    text-align: left;
+}
+.top-right{
+    display: flex;
+    margin-right: 5%;
+}
+.top-icon{
+    height: 5vh;
+    margin: 5%;
+}
+h3{
+    font-weight: bold;
+    font-size: 20px;
+}
+ p{
+    font-size: 12px;
+}
+.cards{
+    display: flex;
+    margin-top: 5%;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    box-shadow: rgba(161, 82, 82, 0.1) 0px 10px 10px;
+    width: 36%;
+}
+.card, .card-1{
+    height: 20vh;
+    width: 18vw;
+    padding: .5em;
+    text-align: left;
+}
+.card-top, .card-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.card-1{
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+.amount{
+    font-size: 20px;
+    font-weight: bold;
+}
+.card-1-bottom{
+    margin-top: 15%;
+}
+.card-bottom-right{
+    margin-top: -7%;
+    background: #ffffff;
+}
+.card-bottom-right p{
+    border: 1px solid #e5e5e5;
+    width: 4vw;
+    padding: .3em;
+}
+.info-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.info-p{
+    font-size: 16px;
+    font-weight: bold;
+}
+.info-right{
+    display: flex;
+    margin-right: 5%;
+}
+input{
+    width: 20vw;
+    margin-right: 2%;
+    height: 6vh;
+    padding: .3em;
+    border: 1px solid #0000001e;
+}
+.box{
+    width: 8vw;
+    height: 6vh;
+    border: 1px solid #0000001e;
+    margin-right: 2%;
+    padding-top: .6em;
+    text-align: left;
+}
+.payout{
+    width: 7vw;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    height: 6vh;
+    background: #3d8f8d;
+}
+.payout-table{
+    width: 95%;
+    height: 35vh;
+    background: #ffffff;
+    border: none;
+    border-radius: 10px;
+    padding: 1em;
+    margin-top: 1%;
+}
+th, td {
+    padding: 1em;
+}
+th{
+    background-color: #e5e5e5;
+}
+hr{
+   border: 1px solid #ebebeb;
+}
+tbody tr{
+    border-bottom: 1px solid #ebebeb;
+}
+.see-more{
+    width: 95%;
+    height: 7vh;
+    border:1px solid #ebebeb;
+    background-color: #ffffff;
+    color: #3d8f8d;
+    margin-left: -5%;
+}
