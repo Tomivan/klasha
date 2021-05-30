@@ -75,6 +75,15 @@ h3{
     display: flex;
     margin-right: 5%;
 }
+.input, .date{
+    display: flex;
+}
+.input-icon{
+    margin-left: -10%;
+}
+.box-icon{
+    margin-left: -20%;
+}
 input{
     width: 20vw;
     margin-right: 2%;
@@ -126,4 +135,36 @@ tbody tr{
     background-color: #ffffff;
     color: #3d8f8d;
     margin-left: -5%;
+}
+
+@media(min-width: 320px) and (max-width: 768px) {
+    .balances{
+        margin-left: 3%;
+    }
+    .top-right{
+        margin-right: 27%;
+    }
+    .cards{
+        display: block;
+        width: 75%;
+    }
+    .card, .card-1{
+        width: 100%;
+    }
+    .card-bottom-right p{
+        width: 10vw;
+    }
+    .info-section{
+        display: block;
+    }
+    .info-right{
+        display: block;
+      
+    }
+    input, .box, .payout{
+        width: 78%;
+    }
+    .payout{
+        margin-left: -22%;
+    }
 }

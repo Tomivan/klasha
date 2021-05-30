@@ -8,7 +8,7 @@ const MobileNav = () => {
     <Container>
       <Spacer />
       <NavWrapper>
-        <NavLink to="/dashboard">
+        <NavLink to="#">
           <NavButton
             hasIconOnly
             renderIcon={Grid32}
@@ -16,43 +16,59 @@ const MobileNav = () => {
             tooltipPosition="bottom"
           />
         </NavLink>
-        <NavLink to="/medical-records">
+        <NavLink to="/">
           <NavButton
             hasIconOnly
             renderIcon={Portfolio32}
-            iconDescription="Medical Records"
+            iconDescription="Balances"
             tooltipPosition="bottom"
           />
         </NavLink>
-        <NavLink to="/patients">
+        <NavLink to="#">
           <NavButton
             hasIconOnly
             renderIcon={HealthCross32}
-            iconDescription="Patients"
+            iconDescription="Customers"
             tooltipPosition="bottom"
           />
         </NavLink>
-        <NavLink to="/health-workers">
+        <NavLink to="#">
           <NavButton
             hasIconOnly
             renderIcon={Stethoscope32}
-            iconDescription="Health Workers"
+            iconDescription="Analytics"
             tooltipPosition="bottom"
           />
         </NavLink>
-        <NavLink to="/admin">
+        <NavLink to="#">
           <NavButton
             hasIconOnly
             renderIcon={User32}
-            iconDescription="Admin"
+            iconDescription="Settings"
             tooltipPosition="bottom"
           />
         </NavLink>
-        <NavLink to="/notifications">
+        <NavLink to="#">
           <NavButton
             hasIconOnly
             renderIcon={Chat32}
-            iconDescription="Notifications"
+            iconDescription="Team"
+            tooltipPosition="bottom"
+          />
+        </NavLink>
+        <NavLink to="#">
+          <NavButton
+            hasIconOnly
+            renderIcon={Chat32}
+            iconDescription="Contact"
+            tooltipPosition="bottom"
+          />
+        </NavLink>
+        <NavLink to="#">
+          <NavButton
+            hasIconOnly
+            renderIcon={Chat32}
+            iconDescription="Logout"
             tooltipPosition="bottom"
           />
         </NavLink>

@@ -9,6 +9,10 @@
 }
 .bx--side-nav__navigation{
     z-index: 0;
+    background: #e5e5e5;
+}
+svg{
+    display: none;
 }
 .nav-icon{
     margin-right: 1em;

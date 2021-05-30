@@ -1,6 +1,8 @@
 import React from 'react';
 import Notification from '../../assets/images/notification.svg';
 import Profile from '../../assets/images/profile.svg';
+import Calender from '../../assets/images/Calendar.svg';
+import Search from '../../assets/images/Search.svg';
 import './balances.css';
 import Layout from '../../components/layout/layout';
 
@@ -50,8 +52,14 @@ const Balances = () => {
                     <section className="info-section">
                         <p className="info-p">Payout Table</p>
                         <div className="info-right">
-                            <input type="" placeholder="Search Something" />
-                            <p className="box">March 2020</p>
+                            <div className="input">
+                                <input type="text" placeholder="Search Something" />
+                                <img src={Search} alt="the profile icon" className="input-icon"/>
+                            </div>
+                            <div className ="date">
+                                <p className="box">March 2020</p>
+                                <img src={Calender} alt="the profile icon" className="box-icon"/>
+                            </div>
                             <button className="payout">Payout</button>
                         </div>
                     </section>
