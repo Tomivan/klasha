@@ -137,7 +137,7 @@ tbody tr{
     margin-left: -5%;
 }
 
-@media(min-width: 320px) and (max-width: 768px) {
+@media(min-width: 320px) and (max-width: 767px) {
     .balances{
         margin-left: 3%;
     }
@@ -167,4 +167,19 @@ tbody tr{
     .payout{
         margin-left: -22%;
     }
+}
+@media(min-width: 768px) and (max-width: 1024px) {
+    .bx--side-nav__navigation{
+        width: 20vw;
+    }
+    .balances{
+        margin-left: 22%;
+    }
+    .cards{
+        width: 60%;
+    }
+    .card, .card-1{
+        width: 30vw;
+    }
+    
 }
