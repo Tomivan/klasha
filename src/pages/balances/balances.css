@@ -107,6 +107,9 @@ input{
     height: 6vh;
     background: #3d8f8d;
 }
+.table{
+    overflow-x: auto;
+}
 .payout-table{
     width: 95%;
     height: 35vh;
@@ -166,6 +169,9 @@ tbody tr{
     }
     .payout{
         margin-left: -22%;
+    }
+    .table{
+        width: 90%;
     }
 }
 @media(min-width: 768px) and (max-width: 1024px) {

@@ -63,6 +63,7 @@ const Balances = () => {
                             <button className="payout">Payout</button>
                         </div>
                     </section>
+                    <div className="table">
                     <table className="payout-table">
                         <thead>
                             <tr className="table-row">
@@ -99,6 +100,7 @@ const Balances = () => {
                             </tr>
                     </tbody>
                     </table>
+                    </div>
                     <button className="see-more"> See More</button>
                </div>
         </div>
