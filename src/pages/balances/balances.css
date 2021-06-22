@@ -137,7 +137,6 @@ tbody tr{
     border:1px solid #ebebeb;
     background-color: #ffffff;
     color: #3d8f8d;
-    margin-left: -5%;
 }
 
 @media(min-width: 320px) and (max-width: 767px) {
